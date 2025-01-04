@@ -41,11 +41,16 @@ public:
 	}
 
 	const std::size_t get_num_vertices() const{
-		return V1_num_vertices;
+		return 2 * V1_num_vertices;
+	}
+
+	const std::vector<std::unordered_set<int64_t>>& get_adj_list() const{
+		return V1_adj_list;
 	}
 
 	const std::unordered_set<int64_t>& get_neighbors(int64_t v) const{
 		return V1_adj_list[v];
 	}
 };
+
 

@@ -5,5 +5,8 @@ INCLUDES = graph.hpp
 test: test.cpp $(INCLUDES)
 	$(CXX) $(CXXFLAGS) -o test test.cpp
 
+test: z2.cpp $(INCLUDES)
+	$(CXX) $(CXXFLAGS) -o z2 z2.cpp
+
 clean:
-	rm -f test a.out
+	rm -f test z2 a.out
