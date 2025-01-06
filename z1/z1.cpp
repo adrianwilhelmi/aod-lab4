@@ -17,7 +17,6 @@ std::pair<int64_t, std::vector<std::unordered_map<int64_t, int64_t>>> edmonds_ka
 	const std::size_t num_nodes = graph.get_num_nodes();
 	const auto&adj_list = graph.get_adj_list();
 
-
 	std::vector<std::unordered_map<int64_t, int64_t>> capacity(num_nodes);
 	std::vector<std::unordered_map<int64_t, int64_t>> flow(num_nodes);
 
