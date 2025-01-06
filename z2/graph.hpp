@@ -6,11 +6,10 @@
 class RandomBipartileGraph{
 private:
 	std::vector<std::unordered_set<int64_t>> V1_adj_list;
-	std::size_t k, i;
 	std::size_t V1_num_vertices;
 
 public:
-	RandomBipartileGraph(std::size_t k, std::size_t i) : k(k), i(i){
+	RandomBipartileGraph(const std::size_t k, const std::size_t i){
 		this->V1_num_vertices = (1 << k);
 		V1_adj_list.resize(this->V1_num_vertices);
 
