@@ -1,2 +1,0 @@
-Łukasz Pawlik 272357
-Bot jest przerobiona wersja przykladowego bota z plikow implementacji gry. Zostalo tylko zmienione w jaki sposob bot wykonuje ruch. Pozostala czesc kodu w tym kouminkacja pozostala nie zmieniona. Bota kompilujemy za pomoca makefile. Albo przez kompilator C w standardzie c23. Dodatkowe biblioteki to limits.h i math.h oraz dolaczonego openings.h. program uruchamiamy zgodnie z specyfikacja ./game_my_bot <nr ip> <nr portu> <gracz> <nick> <glebokosc> .
